@@ -1,6 +1,6 @@
 {
   "name": "videojs-resolution-switcher",
-  "version": "0.4.2",
+  "version": "0.4.3",
   "main": "./lib/videojs-resolution-switcher.js",
   "author": {
     "name": "Kasper Moskwiak",
@@ -42,11 +42,8 @@
     "grunt-contrib-qunit": "^1.1",
     "grunt-contrib-uglify": "^1.0",
     "grunt-contrib-watch": "^1.0",
-    "video.js": "^5.8",
     "qunitjs": "^1.22",
+    "video.js": "^6.2.8",
     "videojs-youtube": "^2.0.8"
-  },
-  "peerDependencies": {
-    "video.js": "^5.8"
   }
 }
