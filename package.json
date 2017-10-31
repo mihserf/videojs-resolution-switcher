@@ -42,12 +42,9 @@
     "grunt-contrib-qunit": "^1.1",
     "grunt-contrib-uglify": "^1.0",
     "grunt-contrib-watch": "^1.0",
-    "video.js": "^5.13",
     "qunitjs": "^2.0.0-rc1",
-    "videojs-youtube": "^2.0.8",
-		"videojs-contrib-hls": "^3.5.3"
-  },
-  "peerDependencies": {
-    "video.js": "^5.13"
+    "video.js": "^6.2.8",
+    "videojs-contrib-hls": "^3.5.3",
+    "videojs-youtube": "^2.0.8"
   }
 }
