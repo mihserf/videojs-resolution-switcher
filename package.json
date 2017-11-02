@@ -1,6 +1,6 @@
 {
   "name": "videojs-resolution-switcher",
-  "version": "0.4.4",
+  "version": "0.4.5",
   "main": "./lib/videojs-resolution-switcher.js",
   "author": {
     "name": "Kasper Moskwiak",
@@ -9,10 +9,11 @@
   },
   "contributors": [
     {
-      "name": "Pierre Kraft"
+      "name": "Pierre Kraft",
+      "name": "Przemysław Szelenberger"
     }
   ],
-  "description": "Resolution switcher for video.js 5",
+  "description": "Resolution switcher for video.js 6",
   "repository": {
     "type": "git",
     "url": "git@github.com:kmoskwiak/videojs-resolution-switcher.git"
