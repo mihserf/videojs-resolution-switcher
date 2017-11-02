@@ -1,13 +1,4 @@
-.vjs-resolution-button .vjs-menu-icon:before {
-  content: '\f110';
-  font-family: VideoJS;
-  font-weight: normal;
-  font-style: normal;
-  font-size: 1.8em;
-  line-height: 1.67em;
-}
-
-.vjs-resolution-button .vjs-resolution-button-label {
+.vjs-resolution-button-label {
   font-size: 1em;
   line-height: 3em;
   position: absolute;
@@ -19,13 +10,13 @@
   box-sizing: inherit;
 }
 
-.vjs-resolution-button .vjs-menu .vjs-menu-content {
+.vjs-resolution-button + .vjs-menu .vjs-menu-content {
   width: 4em;
-  left: 50%; /* Center the menu, in it's parent */
-  margin-left: -2em; /* half of width, to center */
+  left: 50%;
+  margin-left: -2em;
 }
 
-.vjs-resolution-button .vjs-menu li {
-  text-transform: none;
+.vjs-resolution-button + .vjs-menu .vjs-menu-item {
+  text-transform: uppercase;
   font-size: 1em;
 }
